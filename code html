@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Gadget Landing Page</title>
+  <link rel="stylesheet" href="styling.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">SmartGadget</div>
+    <nav>
+      <ul>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#newsletter">Newsletter</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Experience Next-Gen Smart Gadget</h1>
+      <p>Smart, Sleek, and Powerful.</p>
+      <a href="#pricing" class="btn">Buy Now</a>
+    </div>
+    <div class="hero-image">
+      <img src="IMG-20250705-WA0025.jpg" alt="Smart Gadget">
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <h2>Awesome Features</h2>
+    <div class="feature-list">
+      <div class="feature">
+        <img src="IMG-20250705-WA0026.jpg" alt="Feature 1">
+        <h3>Fast Performance</h3>
+        <p>Top-notch speed for multitasking.</p>
+      </div>
+      <div class="feature">
+        <img src="IMG-20250705-WA0027.jpg" alt="Feature 2">
+        <h3>Long Battery</h3>
+        <p>Lasts up to 48 hours on a single charge.</p>
+      </div>
+      <div class="feature">
+        <img src="IMG-20250705-WA0024.jpg" alt="Feature 3">
+        <h3>Smart Integration</h3>
+        <p>Seamlessly connects with your devices.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="pricing">
+    <h2>Choose Your Plan</h2>
+    <div class="plans">
+      <div class="plan">
+        <h3>Basic</h3>
+        <p>$99</p>
+        <a href="#" class="btn">Buy Basic</a>
+      </div>
+      <div class="plan">
+        <h3>Standard</h3>
+        <p>$149</p>
+        <a href="#" class="btn">Buy Standard</a>
+      </div>
+      <div class="plan">
+        <h3>Premium</h3>
+        <p>$199</p>
+        <a href="#" class="btn">Buy Premium</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="testimonials">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial-list">
+      <div class="testimonial">
+        <p>"Amazing gadget! Totally worth it."</p>
+        <h4>- John Doe</h4>
+      </div>
+      <div class="testimonial">
+        <p>"Battery life is incredible, highly recommend."</p>
+        <h4>- Sarah Smith</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section id="newsletter" class="newsletter">
+    <h2>Stay Updated</h2>
+    <form id="newsletter-form">
+      <input type="email" id="email" placeholder="Enter your email" required />
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 SmartGadget. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
